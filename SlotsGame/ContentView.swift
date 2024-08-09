@@ -55,7 +55,7 @@ struct ContentView: View {
                                 .frame(width: 220, height: 140)
                         }
                         Spacer()
-                        NavigationLink(destination: SlotsListView()
+                        NavigationLink(destination: ShopListView()
                             .environmentObject(userData)
                             .navigationBarBackButtonHidden(true)) {
                             Image("shop_bttn")
